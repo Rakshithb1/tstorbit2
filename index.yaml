@@ -1,0 +1,131 @@
+apiVersion: v1
+entries:
+  activemq-artemis:
+  - apiVersion: v2
+    appVersion: 2.6.2
+    created: "2023-02-22T12:34:10.091645034Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: a multi-protocol, embeddable, very high performance, clustered, asynchronous
+      messaging system.
+    digest: d591b095366da4aaa7f072ae52ae71579007b86cc75fd423f86fb3111a34b73b
+    home: https://activemq.apache.org/artemis/
+    icon: https://activemq.apache.org/assets/img/activemq_logo_icon.png
+    keywords:
+    - activemq
+    - artemis
+    - messaging
+    - mom
+    - amqp
+    - jms
+    - mqtt
+    maintainers:
+    - email: victor.romero@gmail.com
+      name: vromero
+    name: activemq-artemis
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/apache/activemq-artemis
+    urls:
+    - https://github.com/Rakshithb1/tstorbit2/activemq-artemis-0.0.2.tgz
+    version: 0.0.2
+  admin-hotlist:
+  - apiVersion: v2
+    created: "2023-02-22T12:34:10.09337296Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Admin Hotlist
+    digest: ec25da67afcc3780aef9e4f2d11538cc4de69d0292db1494e887b6c11f2ddd13
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - admin
+    - hotlist
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: admin-hotlist
+    type: application
+    urls:
+    - https://github.com/Rakshithb1/tstorbit2/admin-hotlist-12.0.2.tgz
+    version: 12.0.2
+  admin-service:
+  - apiVersion: v2
+    created: "2023-02-22T12:34:10.095154085Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Admin module
+    digest: b7bc8e8722b37ea2a2b31d5231730cf217f843deb449a5ad8460fa617cc54f7e
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - admin
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: admin-service
+    type: application
+    urls:
+    - https://github.com/Rakshithb1/tstorbit2/admin-service-12.0.2.tgz
+    version: 12.0.2
+  admin-ui:
+  - apiVersion: v2
+    created: "2023-02-22T12:34:10.09689031Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Admin UI module
+    digest: bedab932e671553d06539fc7d2ff5bd4ac7981503fe02acfeb0c5c49755655a3
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - admin
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: admin-ui
+    type: application
+    urls:
+    - https://github.com/Rakshithb1/tstorbit2/admin-ui-12.0.2.tgz
+    version: 12.0.2
+  datashare:
+  - apiVersion: v2
+    created: "2023-02-22T12:34:10.099489248Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Datashare module
+    digest: 765bdf9dfa379c8340ce6f85b670c64c2d7c8e079506bb06e02ba1860b0b8dc5
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - datashare
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: datashare
+    type: application
+    urls:
+    - https://github.com/Rakshithb1/tstorbit2/datashare-12.0.2.tgz
+    version: 12.0.2
+generated: "2023-02-22T12:34:10.088889095Z"
