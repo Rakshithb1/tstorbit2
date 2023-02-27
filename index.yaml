@@ -81,6 +81,29 @@ entries:
     urls:
     - https://github.com/Rakshithb1/tstorbit2/admin-service-12.0.2.tgz
     version: 12.0.2
+  - apiVersion: v2
+    created: "2023-02-27T12:01:52.169053821Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Admin module
+    digest: 795a40019a7071375f60418de9773c3c2f6ee7673614f05294b2681cdf99f953
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - admin
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: admin-service
+    type: application
+    urls:
+    - https://github.com/Rakshithb1/tstorbit2/admin-service-12.0.1-B2.tgz
+    version: 12.0.1-B2
   admin-ui:
   - apiVersion: v2
     created: "2023-02-22T13:42:00.626436234Z"
@@ -105,6 +128,76 @@ entries:
     urls:
     - https://github.com/Rakshithb1/tstorbit2/admin-ui-12.0.2.tgz
     version: 12.0.2
+  - apiVersion: v2
+    created: "2023-02-27T12:01:52.170967455Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Admin UI module
+    digest: f155ca27050350dc8f145a857705e1d1424f95aea38f446fb6f5bf409f64f625
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - admin
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: admin-ui
+    type: application
+    urls:
+    - https://github.com/Rakshithb1/tstorbit2/admin-ui-12.0.1-B2.tgz
+    version: 12.0.1-B2
+  apitestrig:
+  - apiVersion: v2
+    created: "2023-02-27T12:01:52.173154993Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart to deploy APITESTRIG for MOSIP modules
+    digest: 0d15ba7753cdcdfccef08fe3b04ef10f43fc9019ff8a65b28ae6557bd9702769
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - apitestrig
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: apitestrig
+    type: application
+    urls:
+    - https://github.com/Rakshithb1/tstorbit2/apitestrig-12.0.1-B3.tgz
+    version: 12.0.1-B3
+  artifactory:
+  - apiVersion: v2
+    created: "2023-02-27T12:01:52.174985025Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Artifactory
+    digest: fb4f742fdb278fde8f587725dfa21a9a241d8639faf7873d79c8f3c644746429
+    home: https://mosip.io
+    keywords:
+    - artifactory
+    - antivirus
+    - anti-virus
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: artifactory
+    type: application
+    urls:
+    - https://github.com/Rakshithb1/tstorbit2/artifactory-12.0.1-B3.tgz
+    version: 12.0.1-B3
   compliance-toolkit:
   - apiVersion: v2
     created: "2023-02-22T13:48:14.437792193Z"
@@ -152,4 +245,4 @@ entries:
     urls:
     - https://github.com/Rakshithb1/tstorbit2/datashare-12.0.2.tgz
     version: 12.0.2
-generated: "2023-02-22T13:48:14.434426574Z"
+generated: "2023-02-27T12:01:52.16556196Z"
