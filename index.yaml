@@ -82,7 +82,7 @@ entries:
     - https://github.com/Rakshithb1/tstorbit2/admin-service-12.0.2.tgz
     version: 12.0.2
   - apiVersion: v2
-    created: "2023-02-27T12:01:52.169053821Z"
+    created: "2023-02-27T12:27:39.531372276Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -90,7 +90,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: A Helm chart for MOSIP Admin module
-    digest: 795a40019a7071375f60418de9773c3c2f6ee7673614f05294b2681cdf99f953
+    digest: d4e9197839fe2dc4a52909f5f64e08f04f7df74a41c8fca9e80a85df8eee9513
     home: https://mosip.io
     keywords:
     - mosip
@@ -129,7 +129,7 @@ entries:
     - https://github.com/Rakshithb1/tstorbit2/admin-ui-12.0.2.tgz
     version: 12.0.2
   - apiVersion: v2
-    created: "2023-02-27T12:01:52.170967455Z"
+    created: "2023-02-27T12:27:39.533261362Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -137,7 +137,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: A Helm chart for MOSIP Admin UI module
-    digest: f155ca27050350dc8f145a857705e1d1424f95aea38f446fb6f5bf409f64f625
+    digest: 21e80cdab2255f5a0469942a4a106c9aeb3df5a313053d793585c2598f9312f9
     home: https://mosip.io
     keywords:
     - mosip
@@ -153,7 +153,7 @@ entries:
     version: 12.0.1-B2
   apitestrig:
   - apiVersion: v2
-    created: "2023-02-27T12:01:52.173154993Z"
+    created: "2023-02-27T12:27:39.535538845Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -161,7 +161,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: A Helm chart to deploy APITESTRIG for MOSIP modules
-    digest: 0d15ba7753cdcdfccef08fe3b04ef10f43fc9019ff8a65b28ae6557bd9702769
+    digest: 0e415775b5fcd70fff2801ed24db1cb7b631b5b43d03f7c0a12081da6504d0ff
     home: https://mosip.io
     keywords:
     - mosip
@@ -176,7 +176,7 @@ entries:
     version: 12.0.1-B3
   artifactory:
   - apiVersion: v2
-    created: "2023-02-27T12:01:52.174985025Z"
+    created: "2023-02-27T12:27:39.537958827Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -184,7 +184,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: A Helm chart for MOSIP Artifactory
-    digest: fb4f742fdb278fde8f587725dfa21a9a241d8639faf7873d79c8f3c644746429
+    digest: 4225a6be984d00ef1a48abe0b47cbf3ea5ff2c3524319e7fc2e18992fcae944d
     home: https://mosip.io
     keywords:
     - artifactory
@@ -245,4 +245,4 @@ entries:
     urls:
     - https://github.com/Rakshithb1/tstorbit2/datashare-12.0.2.tgz
     version: 12.0.2
-generated: "2023-02-27T12:01:52.16556196Z"
+generated: "2023-02-27T12:27:39.529176392Z"
