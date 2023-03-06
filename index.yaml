@@ -316,6 +316,29 @@ entries:
     urls:
     - https://github.com/Rakshithb1/digitalcard-12.0.2.tgz
     version: 12.0.2
+  esignet:
+  - apiVersion: v2
+    created: "2023-03-06T07:29:39.380757652Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP esignet module
+    digest: 926ff0e703f37adfef28fbf2213a284bb5b7ebf985442469bc797acc89ae5a17
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - esignet
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: esignet
+    type: application
+    urls:
+    - https://github.com/Rakshithb1/esignet-0.0.1.tgz
+    version: 0.0.1
   ida-auth:
   - apiVersion: v2
     created: "2023-03-06T05:31:50.963670956Z"
@@ -409,4 +432,27 @@ entries:
     urls:
     - https://github.com/Rakshithb1/mock-relying-party-ui-12.0.2.tgz
     version: 12.0.2
-generated: "2023-03-06T06:48:34.524708006Z"
+  oidc-ui:
+  - apiVersion: v2
+    created: "2023-03-06T07:29:39.383251753Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP OIDC UI module
+    digest: e796d743cff39e647c54553e16f74ecc89cadc63d41322cb972594be7a313ef1
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - oidc-ui
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: oidc-ui
+    type: application
+    urls:
+    - https://github.com/Rakshithb1/oidc-ui-12.0.2.tgz
+    version: 12.0.2
+generated: "2023-03-06T07:29:39.376704052Z"
