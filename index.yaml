@@ -340,4 +340,73 @@ entries:
     urls:
     - https://github.com/Rakshithb1/ida-auth-12.0.2.tgz
     version: 12.0.2
-generated: "2023-03-06T05:31:50.942287285Z"
+  mock-identity-system:
+  - apiVersion: v2
+    created: "2023-03-06T05:55:39.629769781Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP mock-identity-system module
+    digest: 2bb659acad19f2503b7c445ffa237c0d7dad5d179421fb20297251a725fdeb18
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - mock-identity-system
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: mock-identity-system
+    type: application
+    urls:
+    - https://github.com/Rakshithb1/mock-identity-system-0.0.1.tgz
+    version: 0.0.1
+  mock-relying-party-service:
+  - apiVersion: v2
+    created: "2023-03-06T05:55:39.631643681Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart to file server application.
+    digest: 01a5c997a85949e1a1ad61ed173ebb190328c2523abed385cc974afe2c046a4f
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - mock-relying-party-service
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: mock-relying-party-service
+    type: application
+    urls:
+    - https://github.com/Rakshithb1/mock-relying-party-service-0.0.1.tgz
+    version: 0.0.1
+  mock-relying-party-ui:
+  - apiVersion: v2
+    created: "2023-03-06T05:55:39.633528081Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP OIDC UI module
+    digest: 4709cdac649f4c4c34a4fb7321fd96d409bfd70bba86c5149b4fb1b8a5ed022a
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - mock-relying-party-ui
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: mock-relying-party-ui
+    type: application
+    urls:
+    - https://github.com/Rakshithb1/mock-relying-party-ui-12.0.2.tgz
+    version: 12.0.2
+generated: "2023-03-06T05:55:39.626638381Z"
