@@ -200,7 +200,7 @@ entries:
     version: 12.0.1-B3
   compliance-toolkit:
   - apiVersion: v2
-    created: "2023-03-06T08:56:09.053274742Z"
+    created: "2023-03-06T08:57:46.069947103Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -208,7 +208,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: A Helm chart for compliance-toolkit Application service
-    digest: bb189b155bd14eb7d0dff3422d9a2f8faf3aa46ee184144859ca58f36780426d
+    digest: 80e79a23d4e7f0d3875e225414784f0330a77ccc9eb458101860441051a202dd
     home: https://mosip.io
     keywords:
     - mosip
@@ -479,4 +479,4 @@ entries:
     urls:
     - https://github.com/Rakshithb1/oidc-ui-12.0.2.tgz
     version: 12.0.2
-generated: "2023-03-06T08:56:09.049372017Z"
+generated: "2023-03-06T08:57:46.066925075Z"
