@@ -57,6 +57,29 @@ entries:
     urls:
     - https://github.com/Rakshithb1/tstorbit2/admin-hotlist-12.0.2.tgz
     version: 12.0.2
+  - apiVersion: v2
+    created: "2023-04-12T07:03:46.804675469Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Admin Hotlist
+    digest: feea7ad3c6b0ec388b7ef1a97033f053d99d59f40c08df0cd948c3cd1291f824
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - admin
+    - hotlist
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: admin-hotlist
+    type: application
+    urls:
+    - https://rakshithb1.github.io/tstorbit2/admin-hotlist-12.0.1-B2.tgz
+    version: 12.0.1-B2
   admin-service:
   - apiVersion: v2
     created: "2023-02-22T13:42:00.624686909Z"
@@ -82,7 +105,7 @@ entries:
     - https://github.com/Rakshithb1/tstorbit2/admin-service-12.0.2.tgz
     version: 12.0.2
   - apiVersion: v2
-    created: "2023-03-06T05:31:50.946034545Z"
+    created: "2023-04-12T07:03:46.807498593Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -90,7 +113,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: A Helm chart for MOSIP Admin module
-    digest: 41e2e41a4f34c6611f11e7c292cb87a55d9100ff3f4850de910b064c58aeb593
+    digest: 2f2298a4f69bf544fcc8d80ed83cc70218786011cb6032b6e2d7fc966fb61e2d
     home: https://mosip.io
     keywords:
     - mosip
@@ -102,7 +125,7 @@ entries:
     name: admin-service
     type: application
     urls:
-    - https://github.com/Rakshithb1/admin-service-12.0.1-B2.tgz
+    - https://rakshithb1.github.io/tstorbit2/admin-service-12.0.1-B2.tgz
     version: 12.0.1-B2
   admin-ui:
   - apiVersion: v2
@@ -129,7 +152,7 @@ entries:
     - https://github.com/Rakshithb1/tstorbit2/admin-ui-12.0.2.tgz
     version: 12.0.2
   - apiVersion: v2
-    created: "2023-03-06T05:31:50.948168622Z"
+    created: "2023-04-12T07:03:46.810633141Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -137,19 +160,13 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: A Helm chart for MOSIP Admin UI module
-    digest: 2292b46bce9df33d11f3cf661a78c4e08d2173996b49e6949eb0ef69ae6463ff
-    home: https://mosip.io
+    digest: bd4e55eff09b19f1b34af3b10380e349514c330cb8785a6c3fe36f8512325a72
     keywords:
-    - mosip
     - admin
-    - kernel
-    maintainers:
-    - email: info@mosip.io
-      name: MOSIP
     name: admin-ui
     type: application
     urls:
-    - https://github.com/Rakshithb1/admin-ui-12.0.1-B2.tgz
+    - https://rakshithb1.github.io/tstorbit2/admin-ui-12.0.1-B2.tgz
     version: 12.0.1-B2
   apitestrig:
   - apiVersion: v2
@@ -479,4 +496,285 @@ entries:
     urls:
     - https://github.com/Rakshithb1/oidc-ui-12.0.2.tgz
     version: 12.0.2
-generated: "2023-03-06T10:07:08.349846197Z"
+  pmp-ui:
+  - apiVersion: v2
+    created: "2023-04-12T07:03:46.813738487Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP pmp UI module
+    digest: 818d2245bd107a09b5f17b2304084105d761e5e5bfe14ff052b09e904cc83f00
+    keywords:
+    - pmp
+    name: pmp-ui
+    type: application
+    urls:
+    - https://rakshithb1.github.io/tstorbit2/pmp-ui-12.0.1-B2.tgz
+    version: 12.0.1-B2
+  pms-partner:
+  - apiVersion: v2
+    created: "2023-04-12T07:03:46.815817952Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Partner Management Service Partner service
+    digest: 65f1f5729d23fe0533e5c0bd20358123b843bae8ee9a1a4945bde094b8f787c1
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - pms-partner
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: pms-partner
+    type: application
+    urls:
+    - https://rakshithb1.github.io/tstorbit2/pms-partner-12.0.1-B2.tgz
+    version: 12.0.1-B2
+  pms-policy:
+  - apiVersion: v2
+    created: "2023-04-12T07:03:46.818005625Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Packetmanager module
+    digest: 5df634766d25895ff4b93a02f243f25c193df5749834dbbe8c2db3454be5d1de
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - pms-policy
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: pms-policy
+    type: application
+    urls:
+    - https://rakshithb1.github.io/tstorbit2/pms-policy-12.0.1-B2.tgz
+    version: 12.0.1-B2
+  prereg-application:
+  - apiVersion: v2
+    created: "2023-04-12T07:03:46.820219101Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Pre-registration Application service
+    digest: 74287b6476e3dba249b5dc24b8529eccea7e9f897faed77b166648bc189f5401
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - prereg-application
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: prereg-application
+    type: application
+    urls:
+    - https://rakshithb1.github.io/tstorbit2/prereg-application-12.0.1-B2.tgz
+    version: 12.0.1-B2
+  prereg-batchjob:
+  - apiVersion: v2
+    created: "2023-04-12T07:03:46.823666374Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Pre-registration Batchjob service
+    digest: 618045956673f0a8097465ecdbf0b25730724537df005e1b53ec1b2e0b358ec6
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - prereg-batchjob
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: prereg-batchjob
+    type: application
+    urls:
+    - https://rakshithb1.github.io/tstorbit2/prereg-batchjob-12.0.1-B2.tgz
+    version: 12.0.1-B2
+  prereg-booking:
+  - apiVersion: v2
+    created: "2023-04-12T07:03:46.827174852Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Pre-registration application service
+    digest: a290784609c5ba7f5e8580fa3606367c190d28cb6ae6d09a3eb7a1c39318bb64
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - prereg-booking
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: prereg-booking
+    type: application
+    urls:
+    - https://rakshithb1.github.io/tstorbit2/prereg-booking-12.0.1-B2.tgz
+    version: 12.0.1-B2
+  prereg-captcha:
+  - apiVersion: v2
+    created: "2023-04-12T07:03:46.829236515Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Pre-registration Captcha Service
+    digest: f1e077e407b2fa09579c15525ccf478bb4e73acf0b13e2adee0644cd6e64c588
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - prereg-captcha
+    - prereg
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: prereg-captcha
+    type: application
+    urls:
+    - https://rakshithb1.github.io/tstorbit2/prereg-captcha-12.0.1-B2.tgz
+    version: 12.0.1-B2
+  prereg-datasync:
+  - apiVersion: v2
+    created: "2023-04-12T07:03:46.831300579Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Pre-registration Datasync service
+    digest: 6f707c4a88a04119159ad5bb21f7af8c30d2a6ced5684b015d1c198628cb7982
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - prereg-datasync
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: prereg-datasync
+    type: application
+    urls:
+    - https://rakshithb1.github.io/tstorbit2/prereg-datasync-12.0.1-B2.tgz
+    version: 12.0.1-B2
+  prereg-gateway:
+  - apiVersion: v2
+    created: "2023-04-12T07:03:46.83296131Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Pre-registration Istio Gateway
+    digest: f703b9309b9a833778bf52dea555081e367144926d219bf882ee3324ebc6e070
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - prereg-gateway
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: prereg-gateway
+    type: application
+    urls:
+    - https://rakshithb1.github.io/tstorbit2/prereg-gateway-12.0.1-B2.tgz
+    version: 12.0.1-B2
+  prereg-ui:
+  - apiVersion: v2
+    created: "2023-04-12T07:03:46.834552636Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP Pre-registration UI
+    digest: 1482fd635fd63e62bf1052f61f1cae8db811194238505f9737e262c330f0b19c
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - prereg-ui
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: prereg-ui
+    type: application
+    urls:
+    - https://rakshithb1.github.io/tstorbit2/prereg-ui-12.0.1-B2.tgz
+    version: 12.0.1-B2
+  pridgenerator:
+  - apiVersion: v2
+    created: "2023-04-12T07:03:46.836344878Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP PRIDgenerator module
+    digest: bdf97874d7caa13e63b8aaeef1441711568ed1b1e537cfafbb664a512edc88b5
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - pridgenerator
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: pridgenerator
+    type: application
+    urls:
+    - https://rakshithb1.github.io/tstorbit2/pridgenerator-12.0.1-B2.tgz
+    version: 12.0.1-B2
+  print-service:
+  - apiVersion: v2
+    created: "2023-04-12T07:03:46.83940382Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for sample Print Service
+    digest: 0a0372fec39824b641993fdb2d20a65a5c2131c1068c9415ad871866aaa75871
+    home: https://mosip.io
+    keywords:
+    - mosip
+    - print-service
+    - kernel
+    maintainers:
+    - email: info@mosip.io
+      name: MOSIP
+    name: print-service
+    type: application
+    urls:
+    - https://rakshithb1.github.io/tstorbit2/print-service-12.0.1-B2.tgz
+    version: 12.0.1-B2
+generated: "2023-04-12T07:03:46.802264978Z"
