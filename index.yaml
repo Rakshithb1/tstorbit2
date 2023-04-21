@@ -217,7 +217,7 @@ entries:
     version: 12.0.1-B3
   compliance-toolkit:
   - apiVersion: v2
-    created: "2023-03-06T08:57:46.069947103Z"
+    created: "2023-04-21T12:35:10.600613058Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -225,7 +225,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: A Helm chart for compliance-toolkit Application service
-    digest: 80e79a23d4e7f0d3875e225414784f0330a77ccc9eb458101860441051a202dd
+    digest: 81a7cc57782220220479e9fbec434810fc15c729770f93daf4180f3f372f6cdc
     home: https://mosip.io
     keywords:
     - mosip
@@ -237,7 +237,7 @@ entries:
     name: compliance-toolkit
     type: application
     urls:
-    - https://github.com/Rakshithb1/compliance-toolkit-12.0.2.tgz
+    - https://Rakshithb1.github.io/tstorbit2/compliance-toolkit-12.0.2.tgz
     version: 12.0.2
   compliance-toolkit-ui:
   - apiVersion: v2
@@ -777,4 +777,4 @@ entries:
     urls:
     - https://Rakshithb1.github.io/tstorbit2/print-service-12.0.1-B2.tgz
     version: 12.0.1-B2
-generated: "2023-04-21T10:40:34.757323763Z"
+generated: "2023-04-21T12:35:10.597929543Z"
