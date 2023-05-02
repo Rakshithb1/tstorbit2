@@ -241,7 +241,7 @@ entries:
     version: 12.0.2
   compliance-toolkit-ui:
   - apiVersion: v2
-    created: "2023-05-02T12:43:51.685641703Z"
+    created: "2023-05-02T12:49:31.456539225Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -249,7 +249,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: A Helm chart for compliance-toolkit-ui
-    digest: d04ab8e170e935b9b0d4be06e7fdb9e39f4e368dfbc572ea168b6d2a7903b1a6
+    digest: ac470643572a5fc061bbd1e41c1f514ee8f09099d6d759cfb1dc90c92bb684ac
     home: https://mosip.io
     keywords:
     - mosip
@@ -777,4 +777,4 @@ entries:
     urls:
     - https://Rakshithb1.github.io/tstorbit2/print-service-12.0.1-B2.tgz
     version: 12.0.1-B2
-generated: "2023-05-02T12:43:51.683558658Z"
+generated: "2023-05-02T12:49:31.453169007Z"
